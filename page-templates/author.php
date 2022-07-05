@@ -49,18 +49,6 @@ $user=get_queried_object();
 				<form class="search-form">
 					<input type="text" name="search" placeholder="Search" id="search-input" autocomplete="off" value="<?php echo $_GET['search']; ?>">
 					<img src="<?php bloginfo('template_directory'); ?>/img/x.svg" class="clear-form" alt="">
-					<!--<div class="drop-results">
-						<p class="deleted">
-							<span>Create NFT</span>
-							<b>Deleted</b>
-						</p>
-						<p>
-							<span>How To Buy</span>
-						</p>
-						<p>
-							<span>How To Buy</span>
-						</p>
-					</div>-->
 				</form>
 				<div class="tags-wrap">
 				<?php
@@ -70,7 +58,6 @@ $user=get_queried_object();
 				while ( $news->have_posts() ) : $news->the_post();
 					$cats=wp_get_post_categories($post->ID);
 					foreach ($cats as $cat){
-						//$cats_arr[get_category_link($cat)]=get_cat_name($cat);
 						$cats_arr['?tg='.$cat]=get_cat_name($cat);
 					}
 				endwhile; 
@@ -135,8 +122,6 @@ $user=get_queried_object();
 	    		wp_reset_postdata();
 	    		?>
 			</div>
-			
-		
 	</div>
 </section>
 
