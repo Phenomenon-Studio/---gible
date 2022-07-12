@@ -12,3 +12,7 @@ The stack and project description is described below.
 
 ## Project description
 
+For ****ible project we created a custom design for the Corporate Promo website with an extended blog section.
+The website was created on WordPress with a custom admin panel.
+This website is a promo website for a new Gold/Silver backed Platform. This platform provides NFTs backed by gold and silver, alongside advanced trading and extended blog sections. One platform to do it all, unleashing the true potential of physical gold and silver with the power of NFTs.
+
